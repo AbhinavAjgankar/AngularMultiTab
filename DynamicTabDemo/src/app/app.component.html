@@ -1,0 +1,15 @@
+<header>
+  <h1>Dynamic Tabs</h1>
+</header>
+
+<nav>
+  <ul>
+    <li (click)="InsertComponent('Book')">Book</li>
+    <li (click)="InsertComponent('User')">User</li>
+    <li (click)="InsertComponent('Product')">Product</li>
+  </ul>
+</nav>
+
+<main>
+  <app-tab-control></app-tab-control>
+</main>

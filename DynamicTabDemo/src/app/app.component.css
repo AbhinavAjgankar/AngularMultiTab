@@ -1,0 +1,44 @@
+:host{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 200px 1fr;
+}
+
+header{
+    grid-column: 1/3;
+    padding: 1rem;
+    border: 1px solid grey;
+}
+
+nav{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding: 1rem;
+    border: 1px solid gray;
+}
+
+nav ul li:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+nav ul li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+main{
+    border: 1px solid grey;
+    margin-right: 1rem;
+}
+
+main>*{
+    height: 100%;
+}

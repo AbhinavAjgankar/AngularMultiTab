@@ -1,0 +1,41 @@
+:host{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    height: 100%;
+    padding: 0 0.3rem 0 0.5rem;
+    border-bottom: 1px solid lightskyblue;
+}
+
+:host:last-child{
+    border-right: 1px solid lightskyblue;
+}
+
+
+:host.active {
+    font-weight: bold;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: lightskyblue;
+}
+
+.close-btn{
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover{
+    background-color: lightgray;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.close-btn img{
+    width: 100%;
+}
+
